@@ -1,0 +1,21 @@
+.application-form {
+  input[type=text], input[type=submit] {
+    background: none;
+    width: 331px;
+    height: 40px;
+    border-radius: 6px;
+  }
+  input[type=text] {
+    padding: 14px 20px;
+    border: 1px solid #CCC;
+  }
+  input[type=submit] {
+    color: #FFF;
+    border: none;
+    background-color: #EB691F;
+    margin-bottom: 5px
+  }
+  label {
+    color: #B3B3B3
+  }
+}

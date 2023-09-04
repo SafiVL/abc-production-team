@@ -1,0 +1,23 @@
+.blocks {
+  img {
+    margin-right: 15px;
+  }
+}
+.light-block {
+  padding-left: 30px;
+  padding-top: 30px;
+  background: #F5F5F5;
+  .text-subtitle1-bold {
+    color: #EB691F;
+  }
+  .text-body-14 {
+      color: #333333;
+  }
+}
+.primary-block {
+  padding: 30px 60px 35px 30px;
+  background: var(--unnamed, #EB691F);
+  .text-body-14, .text-subtitle1-bold {
+      color: white;
+  }
+}

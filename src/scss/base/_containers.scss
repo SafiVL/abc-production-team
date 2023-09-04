@@ -1,0 +1,133 @@
+.container {
+  margin-bottom: rem(100);
+  width: rem(1065) !important;
+}
+.banner6 .container {
+  padding: rem(0) rem(68);
+  width: rem(1065) !important;
+}
+.individual-projects {
+  padding: rem(0) rem(68);
+  height: 190px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(235, 105, 31, 1);
+  color: white;
+  .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .band {
+    width: 13px;
+    height: 245.574px;
+    transform: rotate(35.989deg);
+    background-color: rgb(255, 255, 255);
+  }
+}
+.type-block {
+  margin-bottom: 100px;
+  padding: rem(0) rem(68);
+  background-color: rgba(235, 105, 31, 1);
+  height: 215px;
+  color: #323232;
+}
+.stages-work {
+  margin-bottom: 100px;
+  .stages {
+    color: white;
+    background-color: rgba(235, 105, 31, 1);
+  }
+}
+.application-block {
+  .input-group input {
+    border-radius: 6px;
+    border: 1px solid var(--unnamed, #CCC);
+    width: rem(355);
+    padding: rem(14) 0 rem(14) rem(20);
+  }
+  .btn-primary {
+    width: rem(294);
+    padding: 14px 20px;
+  }
+}
+.image-container {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: rem(100);
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+  .content-container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-primary {
+      padding: rem(14) rem(35);
+  }
+}
+.project-description {
+  height: 327px;
+  .card {
+    border: none;
+    border-radius: 0;
+    padding: rem(55) rem(68) rem(55) rem(55);
+    background-color: #EDEDED;;
+  }
+  hr {
+    border-top: 3px solid #FFF;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+.company-block {
+  height: 349px;
+  .card {
+    border: none;
+    border-radius: 0;
+    padding: rem(32) rem(68) rem(31) rem(50);
+    background-color: #EDEDED;;
+  }
+  hr {
+    border-top: 3px solid #FFF;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+.service-request {
+  input, button {
+    border-radius: 6px;
+  }
+  input[type=text] {
+    font-size: 14px;
+    padding: 13px;
+    border: 1px solid #CCC;
+    width: 100%;
+  }
+  input[type=submit] {
+    padding: 14px;
+    color: #FFF;
+    border: 0;
+    width: 100%;
+    background-color: #EB691F;
+  }
+  button {
+    line-height: normal;
+    padding: 17px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    width: 100%;
+  }
+  button :active {
+    background-color: #EB691F;
+  }
+  .text-body-14 {
+    color: #999999;
+  }
+  .comment {
+    width: 555px;
+    height: 112px;
+  }
+}

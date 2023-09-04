@@ -1,0 +1,15 @@
+.custom-table {
+  margin-bottom: 0 !important;
+  th {
+      background-color: #E7E7E6 !important;
+      border: 1px solid white;
+    }
+  
+      td {
+      background-color: #F6F6F6 !important;
+      border: none;
+    }
+    tbody {
+      vertical-align: middle !important;
+  }
+} 

@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(360deg, #EB691F 0%, rgba(235, 105, 31, 0.00) 100%);
+  color: white;
+  padding: 20px;
+}

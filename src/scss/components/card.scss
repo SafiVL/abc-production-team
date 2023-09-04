@@ -1,0 +1,130 @@
+
+.cooperation-block {
+  .card {
+    border-radius: 6px !important;
+    border: 1px solid var(--unnamed, #EB691F) !important;
+  }
+  .card-body-1 {
+    line-height: 110%;
+    font-size: rem(13);
+    padding: rem(40) rem(40) rem(40) rem(35);
+  }
+  .card-body-2 {
+    font-size: rem(13);
+    padding: rem(26) rem(39) rem(26) rem(25);
+  }
+}
+.description-block {
+  .card {
+    border-radius: 6px !important;
+    border: 1px solid var(--unnamed, #EB691F) !important;
+  }
+  .card-body {
+    padding: rem(32) rem(20) rem(32) rem(30);
+  }
+}
+.delivery-block {
+  width: 1065px;
+  .card {
+    border-radius: 0 !important;
+  }
+  .overlap-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .overlap-card {
+    width: rem(100);
+    height: rem(100) !important;
+    position: relative;
+  }
+
+  .overlap-text {
+    padding: 5px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.services {
+  .card {
+    border: none;
+    width: 335px;
+    height: 441px;
+  }
+  .card-body {
+    width: 335px;
+    background-color: #EB691F;
+  }
+  img  {
+    width: 335px;
+    height: 300px;
+  }
+}
+.application-form {
+  .border-primary {
+    border: 1px solid #EB691F !important;
+    background: #ffffff !important;
+  }
+  .form{
+    width: 425px;
+    border-radius: 0;
+    // height: 280px;
+    background: #F5F5F5;
+  }
+  form {
+    padding: 49px 0 45px 45px;
+  }
+  .primary {
+    background-color: #EB691F;
+    color: #FFF;
+  }
+  .card-body {
+    padding: 46px 0 51px 25px !important;
+  }
+}
+.team-block {
+  .card {
+    border: none;
+    border-radius: 0;
+    width: 335px;
+    height: 360px;
+  }
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.00) 98.04%);
+    color: white;
+    padding: 20px;
+  }
+}
+.cooperation {
+  .card-description {
+    border-radius: 0;
+    border: none;
+    background: #F5F5F5;
+  }
+  .card-number {
+    border-radius: 6px;
+    height: 89px;
+    font-size: 52px;
+    background: #EB691F;
+    color: #FFF;
+  }
+  .header-card {
+    border-radius: 6px;
+    height: 89px;
+    background: #EB691F;
+    color: #FFF;
+  }
+  .card-name {
+    background: none;
+    color: #999;
+    border-radius: 6px;
+    border: 1px solid #999;
+  }
+}

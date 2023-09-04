@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Стартовый шаблон</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <!-- header -->
+  @@include('blocks/header.html')
+
+  <!-- main -->
+  @@include('blocks/directions/banner.html')
+  @@include('blocks/directions/description.html')
+  @@include('blocks/directions/advantage.html')
+  @@include('blocks/directions/delivery-options.html')
+  @@include('blocks/directions/type-block.html')
+  @@include('blocks/directions/building-options.html')
+  @@include('blocks/type-block.html')
+  @@include('blocks/stages-work.html')
+  @@include('blocks/objects.html')
+  @@include('blocks/application.html')
+  @@include('blocks/contacts.html')
+  <!-- footer -->
+  @@include('blocks/footer.html')
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="./js/index.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+//.btn {
+//padding: 10px 20px;
+//border: 1px solid black;
+//}
+.redesigned-button {
+  border: none;
+  padding:14px 30px;
+  border-radius: 6px;
+}
+.btn-primary {
+  border-radius: 6px;
+  background: rgba(235, 105, 31, 1);
+  border: none;
+  color: white;
+}
+.transparent-buttons {
+  background: none;
+  border: 1px solid #E1E1E1;
+}
+.btn-border-white {
+  padding: 13px 87px;
+  background: rgba(235, 105, 31, 1);
+  color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.btn-white {
+  padding: 11px 0;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 6px;
+}
+.options {
+  button {
+    border-radius: 0;
+  }
+}

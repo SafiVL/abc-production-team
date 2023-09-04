@@ -1,0 +1,10 @@
+.tabs {
+  .active {
+      background-color: rgba(235, 105, 31, 1);
+  }
+  .nav-link:not(.active) {
+    border: 1px solid #ccc; /* Добавляем границу для неактивных табов */
+    background-color: white; /* Фон неактивных табов */
+    color: #333; /* Цвет текста неактивных табов */
+  }
+}

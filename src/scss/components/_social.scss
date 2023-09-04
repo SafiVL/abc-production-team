@@ -1,0 +1,17 @@
+.social {
+  display: flex;
+  gap: rem(20);
+  &__link {
+    background-color: #fff;
+    width: rem(50);
+    height: rem(50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    img {
+      width: 50%;
+    }
+  }
+}
+
