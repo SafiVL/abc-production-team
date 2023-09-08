@@ -14,11 +14,11 @@
   color: white;
 }
 .transparent-buttons {
+  border-radius: 6px;
   background: none;
   border: 1px solid #E1E1E1;
 }
 .btn-border-white {
-  padding: 13px 87px;
   background: rgba(235, 105, 31, 1);
   color: white;
   border: 1px solid white;
@@ -35,4 +35,19 @@
   button {
     border-radius: 0;
   }
+}
+.destination {
+  button { 
+    padding: 13px ;
+    width: 100%;
+    background: none;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #CCCCCC;
+  }
+}
+.loading {
+  color: #FFF;
+  border: 0;
+  background: #E6E6E6;
 }

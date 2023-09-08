@@ -5,6 +5,9 @@
 .text-body-14 {
   font-size: 14px;
 }
+.bg-primary-1 {
+  background-color: #EB691F !important;
+}
 .description-text-8 {
   font-size: 8px;
   color: #999;
@@ -13,22 +16,34 @@
   font-size: 13px;
 }
 .text-primary-1 {
-  color: var(--unnamed, #EB691F) !important;
+  color: #EB691F !important;
 }
-.mb-45 {
-  margin-bottom: 45px !important;
+.text-12 {
+  font-size: 12px;
 }
-.text-41 {
-  font-size: 41px;
+.text-13 {
+  font-size: 13px;
+}
+.text-16 {
+  font-size: 16px;
+}
+.text-18 {
+  font-size: 18px;
+}
+.text-22 {
+  font-size: 22px;
+}
+.text-26 {
+  font-size: 26px;
+}
+.text-28 {
+  font-size: 28px;
 }
 .text-body-29 {
   font-size: 29px;
 }
-$primary: rgba(235, 105, 31, 1);
-$black: #262626;
-$light-gray: #ECECEC;
-$gray: #999;
-$green: #85BB65;
-$blue: #40B3FF;
-$white: #fff;
-$bg-primary: rgba(235, 105, 31, 1) !important;
+.text-41 {
+  font-size: 41px;
+}
+
+

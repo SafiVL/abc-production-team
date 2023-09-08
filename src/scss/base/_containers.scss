@@ -6,36 +6,71 @@
   padding: rem(0) rem(68);
   width: rem(1065) !important;
 }
+
+  .input-container {
+    position: relative;
+  }
+  .input-container button {
+    border-radius: 6px;
+    padding: 9px 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2
+  }
+
+
 .individual-projects {
-  padding: rem(0) rem(68);
   height: 190px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: rem(100);
   background-color: rgba(235, 105, 31, 1);
-  color: white;
   .row {
     padding-top: 50px;
     padding-bottom: 50px;
   }
   .band {
-    width: 13px;
-    height: 245.574px;
-    transform: rotate(35.989deg);
-    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    height: 20px; /* Высота вашей зигзагообразной линии */
+}
+.band::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 1495px;
+    width: 246px;
+    /* height: 29%; */
+    /* border: 10px solid transparent; */
+    border-top: 13px solid #ffffff;
+    border-bottom: none;
+    transform: rotate(303deg);
+    transform-origin: left center;
   }
 }
 .type-block {
-  margin-bottom: 100px;
-  padding: rem(0) rem(68);
+  margin-bottom: rem(100);
   background-color: rgba(235, 105, 31, 1);
   height: 215px;
   color: #323232;
 }
 .stages-work {
-  margin-bottom: 100px;
+  margin-bottom: rem(100);
   .stages {
+    height: 445px;
     color: white;
     background-color: rgba(235, 105, 31, 1);
+  }
+}
+.description-block, .tourist-houses {
+  .bg-grey {
+    background-color: #F6F6F6;
+    color: #999999;
   }
 }
 .application-block {
@@ -68,18 +103,36 @@
       padding: rem(14) rem(35);
   }
 }
+.comparisons-block {
+  .text-41 {
+    color : #999999;
+  }
+  .card {
+    padding: 52px 27px 53px 68px;
+    border-radius: 0;
+  }
+  .text-start {
+    color: #999999;
+  }
+}
+.technologies-block {
+  margin-bottom: rem(100);
+}
 .project-description {
   height: 327px;
   .card {
     border: none;
     border-radius: 0;
-    padding: rem(55) rem(68) rem(55) rem(55);
+    padding: rem(44) rem(55) rem(44) rem(44);
     background-color: #EDEDED;;
   }
   hr {
     border-top: 3px solid #FFF;
     margin-top: 12px;
     margin-bottom: 12px;
+  }
+  .descriptoin {
+    padding: rem(40) 0 rem(56) rem(55);
   }
 }
 .company-block {
@@ -130,4 +183,16 @@
     width: 555px;
     height: 112px;
   }
+}
+.map-block {
+  margin-bottom: rem(100);
+}
+.calculator {
+  margin-bottom: rem(100);
+}
+.delivery-options {
+  .light-block, .primary-block {
+    padding: rem(40) 0 rem(44) rem(40);
+  }
+  margin-bottom: rem(100);
 }

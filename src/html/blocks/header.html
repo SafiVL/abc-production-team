@@ -1,14 +1,16 @@
 <header class="header">
   <div class="row align-items-center d-flex justify-content-between">
-    <div class="col-4 logo">
+    <div class="col-auto logo">
       <img src="../../img/icons/logo.png" height="40" width="315" />
     </div>
-    <div class="col-6 search-container">
+    <div class="col search-container d-flex mx-5">
       <input type="text" placeholder="Поиск по сайту">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </div>
+      <button class="bg-primary-1 border-0 align-items-start search-icon my-auto">
+        <img src="../../img/icons/search.svg" alt="">
+      </button>
+    </div>  
     <div class="col-2">
-      <button class="redesigned-button transparent-buttons">+7 (3452) 39-39-11</button>
+      <button class="redesigned-button transparent-buttons w-100">+7 (3452) 39-39-11</button>
     </div>
   </div>
   <div class="row mt-3">
@@ -20,29 +22,53 @@
               <a class="nav-link" href="#">Главная</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Проекты</a>
+              <a class="nav-link" href="../../projects.html">Проекты</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Сервисное обслуживание</a>
+              <a class="nav-link" href="../../service_maintenance.html">Сервисное обслуживание</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">О компании</a>
+              <a class="nav-link" href="../../about_company.html">О компании</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Контакты</a>
+              <a class="nav-link" href="contacts.html">Контакты</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Оплата, доставка и лизинг</a>
+              <a class="nav-link" href="../../payment.html">Оплата, доставка и лизинг</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
     <div class="col m-auto">
-      <button class="redesigned-button btn-primary">
+      <button class="redesigned-button btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-card">
         Запросить расчет
       </button>
     </div>
   </div>
 </header>
+<div class="modal fade" id="modal-card" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class=" text-28 fw-bold mb-2">
+          Заполните форму
+        </div>
+        <div class="text-13 mb-3">Укажите ваши контактные данные и мы свяжемся<br> с вами в ближайшее время</div>
+        <form action="">
+          <input class="w-100 mb-3 py-2 ps-3" type="text" placeholder="Имя" id=""> <br>
+          <input class="w-100 mb-3 py-2 ps-3" type="text" placeholder="Номер телефона" id=""><br>
+          <button type="button" class="btn-primary w-100 py-2" data-bs-dismiss="modal">Свяжитесь со мной</button>
+          <div class="d-flex">
+            <input class="me-1" type="checkbox">
+            <label class="text-body-14 mt-2 mb-2"> Я даю согласия не обработку <span class="text-primary-1">персональных данных</span></label>
+          </div>  
+        </form>   
+      </div>
+    </div>
+  </div>
+</div>
 

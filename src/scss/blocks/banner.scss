@@ -1,15 +1,19 @@
 .banner {
+  .container {
+    margin-left: 291px;
+  }
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
   color: white;
   text-align: start;
-  .container {
-    margin-top: rem(60);
-  }
+  // .container {
+  //   margin-top: rem(60);
+  // }
   h1 {
-    margin-bottom: rem(81);
+    margin-top: rem(65);
+    margin-bottom: rem(80);
   }
   .card {
     background-color: rgba(0, 0, 0, 0.5);
@@ -17,6 +21,12 @@
   }
   button {
     padding: rem(9) rem(40);
+  }
+  li {
+    color: rgba(235, 105, 31, 1);
+  }
+  li span {
+    color: #000
   }
 }
 .banner1 {
@@ -29,6 +39,46 @@
     height: 100vh;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0));
   }
+  .main-text {
+    margin-bottom: rem(113);
+  }
+}
+.banner3 {
+  margin-bottom: rem(100);
+  background-image: url(../../img/bg/biz-banner.svg);
+  .bg-container {
+    position: absolute;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  }
+  .main-text {
+    margin-bottom: rem(113);
+  }
+}
+.banner4 {
+  background-image: url(../../img/bg/banner-tourism.svg);
+  .bg-container {
+    position: absolute;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  }
+  .main-text {
+    margin-bottom: rem(113);
+  }
+}
+.banner5 {
+  background-image: url(../../img/bg/house.svg);
+  .bg-container {
+    position: absolute;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  }
+  .main-text {
+    margin-bottom: rem(113);
+  }
+  .description-text-13 {
+    color: #999;
+  }
 }
 .banner6 {
   background-image: url(../../img/bg/banner6.svg);
@@ -37,17 +87,15 @@
     height: 100vh;
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255 255 255 / 97%), rgba(255, 255, 255, 0));
   }
-  li {
-    color: rgba(235, 105, 31, 1);
-  }
-  li span {
-    color: #000
-  }
+  
   .main-text {
     margin-bottom: rem(171);
   }
 }
 .banner9 {
+  .container {
+    padding-top: rem(57);
+  }
   background-image: url(../../img/bg/banner9.svg);
   li {
     color: rgba(235, 105, 31, 1);
@@ -57,8 +105,14 @@
   }
   margin-bottom: 100px;
 }
-.banner10 {
-  margin-bottom: 100px;
+.banner10 { 
+  margin-bottom: rem(100);
+  .card {
+    padding: 15px 0 15px 20px;
+    border-radius: 6px 6px 0 0;
+    color: #000;
+    background-color: #FFF;
+  }
   background-image: url(../../img/bg/banner10.svg);
 }
 

@@ -14,37 +14,42 @@
     padding: rem(26) rem(39) rem(26) rem(25);
   }
 }
-.description-block {
+.tourist-houses {
   .card {
     border-radius: 6px !important;
-    border: 1px solid var(--unnamed, #EB691F) !important;
+    border: 1px solid  #EB691F !important;
   }
   .card-body {
-    padding: rem(32) rem(20) rem(32) rem(30);
+    padding: rem(27) 0 rem(27) rem(24);
   }
 }
 .delivery-block {
   width: 1065px;
   .card {
-    border-radius: 0 !important;
+    border-radius: 0;
   }
   .overlap-container {
     display: flex;
     align-items: center;
+    .card .card-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 520px;
+      height: 267px;
+      background: #F6F5F6;
+    }
   }
-
+  .card {
+    border: none;
+  }
   .overlap-card {
-    width: rem(100);
-    height: rem(100) !important;
-    position: relative;
-  }
-
-  .overlap-text {
-    padding: 5px 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    border: none;
+    width: 100px;
+    height: 100px;
+    z-index: 19; 
+    margin: -30px;
   }
 }
 .services {
@@ -57,7 +62,7 @@
     width: 335px;
     background-color: #EB691F;
   }
-  img  {
+  .card-img-top  {
     width: 335px;
     height: 300px;
   }
@@ -74,7 +79,7 @@
     background: #F5F5F5;
   }
   form {
-    padding: 49px 0 45px 45px;
+    padding: 49px 45px 45px 45px;
   }
   .primary {
     background-color: #EB691F;
@@ -127,4 +132,86 @@
     border-radius: 6px;
     border: 1px solid #999;
   }
+}
+.lg-form {
+  .service-request {
+    margin-bottom: rem(100);
+  }
+  .card {
+    border-radius: 0;
+    cursor: pointer;
+  }
+  .active {
+    background-color: #EB691F;
+    color: #ffffff;
+  }
+  .card-gray {
+    border: none;
+    background-color: #E6E6E6;
+  }
+}
+.payment-options {
+  height: 263px;
+  .card {
+    border-radius: 0;
+  }
+  .options {  
+    border: none;
+    background-color: #EB691F;
+    color: #FFF;
+    padding: 47px;
+  }
+  .leasing-info-card {
+    border: none;
+    background-color: #E6E6E6;
+  }
+}
+.calculator {
+  .container {
+    margin-bottom: 0 !important;
+  }
+  .field-name {
+    border-radius: 6px;
+    background-color: #E6E6E6;
+  }
+  .calc-card {
+    border: none;
+    background-color: #F5F5F5;
+    border-radius: 0;
+    padding: rem(57) rem(49) rem(53) rem(66);
+  }
+  input {
+    height: 43px !important;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+  }
+  .second-card {
+    color: #FFF;
+    padding: rem(57) rem(49) rem(53) rem(66);
+    border-radius: 0;
+    background-color: #EB691F;
+    border: none;
+    .qwer {
+      color: #FFF;
+      border: 1px solid #FFF;
+      background-color: #EB691F;
+      padding: 10px 0 10px 16px;
+      width: 160px;
+      height: 79px;
+    }
+    .qwer2 {
+      color: #FFF;
+      border: 1px solid #FFF;
+      background-color: #EB691F;
+      padding: 10px 0 10px 16px;
+      width: 187px;
+      height: 79px;
+    }
+    .calculation {
+      width: 357px;
+    }
+  }
+}
+.delivery-options {
+  background-color: #EB691F;
 }

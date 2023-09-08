@@ -1,2 +1,4 @@
-import mobileNav from './modules/mobile-nav.js';
-mobileNav();
+import splideInit from './modules/splide.js';
+document.addEventListener( 'DOMContentLoaded', function() {
+  splideInit();
+} );
