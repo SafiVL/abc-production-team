@@ -4,8 +4,6 @@
   }
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
   color: white;
   text-align: start;
   // .container {
@@ -87,7 +85,7 @@
     height: 100vh;
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255 255 255 / 97%), rgba(255, 255, 255, 0));
   }
-  
+
   .main-text {
     margin-bottom: rem(171);
   }
@@ -105,7 +103,7 @@
   }
   margin-bottom: 100px;
 }
-.banner10 { 
+.banner10 {
   margin-bottom: rem(100);
   .card {
     padding: 15px 0 15px 20px;
