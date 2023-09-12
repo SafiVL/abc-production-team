@@ -1,0 +1,20 @@
+.stages {
+  .stage {
+    position: relative;
+  }
+
+  .block-hr {
+    width: 35px;
+    height: 2px;
+    background: #ff9c63;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .vector {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+}

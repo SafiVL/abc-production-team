@@ -30,27 +30,21 @@
   height: 190px;
   margin-bottom: rem(100);
   background-color: rgba(235, 105, 31, 1);
+  position: relative;
+
   .row {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   .band {
-    position: relative;
-    width: 100%;
-    height: 20px; /* Высота вашей зигзагообразной линии */
-}
-.band::before {
-    content: "";
     position: absolute;
-    top: 17px;
-    left: 1495px;
-    width: 246px;
-    /* height: 29%; */
-    /* border: 10px solid transparent; */
-    border-top: 13px solid #ffffff;
-    border-bottom: none;
-    transform: rotate(303deg);
-    transform-origin: left center;
+    background: white;
+    right: 58px;
+    top: -22px;
+    width: 13px;
+    height: 128%;
+    transform: rotate(36deg);
   }
 }
 .type-block {
@@ -62,7 +56,6 @@
 .stages-work {
   margin-bottom: rem(100);
   .stages {
-    height: 445px;
     color: white;
     background-color: rgba(235, 105, 31, 1);
   }
