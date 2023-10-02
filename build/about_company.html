@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+  <div class="row align-items-center d-flex justify-content-between">
+    <div class="col-auto logo">
+      <img src="../../img/icons/logo.png" height="40" width="315" />
+    </div>
+    <div class="col search-container d-flex mx-5">
+      <input type="text" placeholder="Поиск по сайту">
+      <button class="bg-primary-1 border-0 align-items-start search-icon my-auto">
+        <img src="../../img/icons/search.svg" alt="">
+      </button>
+    </div>  
+    <div class="col-2">
+      <button class="redesigned-button transparent-buttons w-100">+7 (3452) 39-39-11</button>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-10 ">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="collapse navbar-collapse gx-5" id="navbarNav" >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../../index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../projects.html">Проекты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../service_maintenance.html">Сервисное обслуживание</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../about_company.html">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../payment.html">Оплата, доставка и лизинг</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="col-2">
+      <button class="redesigned-button btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-card">
+        Запросить расчет
+      </button>
+    </div>
+  </div>
+</header>
+<div class="modal fade" id="modal-card" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class=" text-28 fw-bold mb-2">
+          Заполните форму
+        </div>
+        <div class="text-13 mb-3">Укажите ваши контактные данные и мы свяжемся<br> с вами в ближайшее время</div>
+        <form action="">
+          <input class="w-100 mb-3 py-2 ps-3" type="text" placeholder="Имя" id=""> <br>
+          <input class="w-100 mb-3 py-2 ps-3" type="text" placeholder="Номер телефона" id=""><br>
+          <button type="button" class="btn-primary w-100 py-2" data-bs-dismiss="modal">Свяжитесь со мной</button>
+          <div class="d-flex">
+            <input class="me-1" type="checkbox">
+            <label class="text-body-14 mt-2 mb-2"> Я даю согласия не обработку <span class="text-primary-1">персональных данных</span></label>
+          </div>  
+        </form>   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- main -->
+    <section class="banner banner10">
+  <div class="container">
+    <div class="text-41 fw-bold text-primary-1 mt-5 mb-4">Главное - это люди!</div>
+    <div class="text-28 lh-1 fw-medium mb-3">
+      У нас есть современное оборудование, свои производственные <br>
+      мощности, нам доверяют частные инвесторы и государство.
+    </div>
+    <div class="text-body-14 lh-1 mb-5">
+      Но это все было бы невозможно без сильной амбициозной команды, <br>
+      которая создает и реализует самые сложные проекты по всей России.
+    </div>
+    <div class="text-28 fw-bold mb-5">
+      Давайте знакомиться!
+    </div>
+    <div class="row d-flex flex-row">
+      <div class="col-2 ps-0 pe-0">
+        <div class="card">
+          <div class="row">
+            <div class="col-auto pe-0">
+              <img src="../img/icons/about-company/man.svg" alt="">
+            </div>
+            <div class="col text-body-14 lh-1 my-auto">10 лет <br>на рынке</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 pe-0">
+        <div class="card">
+          <div class="row">
+            <div class="col-auto pe-0">
+              <img src="../img/icons/about-company/man2.svg" alt="">
+            </div>
+            <div class="col text-body-14 lh-1  my-auto">Собственные <br>производственные<br> мощности</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 pe-0">
+        <div class="card">
+          <div class="row">
+            <div class="col-auto pe-0 my-auto">
+              <img src="../img/icons/about-company/hands.svg" alt="">
+            </div>
+            <div class="col text-body-14 lh-1 ">Проекты для<br> государства<br> и бизнеса</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 pe-0">
+        <div class="card">
+          <div class="row">
+            <div class="col-auto pe-0 my-auto">
+              <img src="../img/icons/about-company/trees.svg" alt="">
+            </div>
+            <div class="col text-body-14 lh-1">Опыт работы<br> в экстремальных<br> условиях и локациях</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card">
+          <div class="row">
+            <div class="col-auto pe-0">
+              <img src="../img/icons/about-company/coin.svg" alt="">
+            </div>
+            <div class="col text-body-14 lh-1  my-auto">Лучшие цены<br> на рынке</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+    <section class="container team-block">
+  <div class="text-41 mb-4">Наша команда профессионалов</div>
+  <div class="d-flex justify-content-between">
+    <div class="card text-bg-dark">
+      <img src="../img/bg/card-man.svg" alt="...">
+      <div class="img-overlay d-flex flex-column justify-content-end align-items-start">
+        <h5 class="card-title">Кискин Павел</h5>
+        <div class=" text-body-14">Руководитель компании АБВ ПРО</div>
+        <div class="card-text text-body-14">С 2013 года в построении и развитии бизнеса под ключ (IT, производственно- рекламный бизнес)</div>
+      </div>
+    </div>
+    <div class="card text-bg-dark">
+      <img src="../img/bg/card-man.svg" alt="...">
+      <div class="img-overlay d-flex flex-column justify-content-end align-items-start">
+        <h5 class="card-title">Кискин Павел</h5>
+        <div class=" text-body-14">Руководитель компании АБВ ПРО</div>
+        <div class="text-body-14">С 2013 года в построении и развитии бизнеса под ключ (IT, производственно- рекламный бизнес)</div>
+      </div>
+    </div>
+    <div class="card text-bg-dark">
+      <img src="../img/bg/card-man.svg" alt="...">
+      <div class="img-overlay d-flex flex-column justify-content-end align-items-start">
+        <h5 class="card-title">Кискин Павел</h5>
+        <div class=" text-body-14">Руководитель компании АБВ ПРО</div>
+        <div class="card-text text-body-14">С 2013 года в построении и развитии бизнеса под ключ (IT, производственно- рекламный бизнес)</div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+    <section class="container company-block">
+  <div class="row">
+    <div class="col-md-7">
+      <div >
+        <div class="fs-4 mb-4 text-28 fw-bold lh-1">
+          <span class="text-primary-1">АБВ-ГРУПП</span> - это современная <br>
+          компания-производитель модульных <br>
+          зданий и наружной рекламы
+        </div>
+        <div class="py-4 border border-start-0">
+          <div class="text-body-14">
+            <div class="text-body-14 mb-3">
+              Мы осуществляем любые идеи, от визитки до полноценного<br>
+              гостиничного комплекса с инфраструктурой.
+            </div>
+            <div class="text-body-14 mb-3">
+              Компания на рынке более 10 лет и выполняет полный цикл задач<br> от проектирования и дизайна здания до изготовления упаковки и<br> монтажа
+            </div>
+            <div class="text-body-14">
+              АБВ ГРУПП гарантированно в срок исполняет государственные<br>
+              и частные заказы любой сложности даже в самых отдаленных местах<br>
+              нашей страны, от юга и до крайнего севера.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="fs-4 mb-3">Реквизиты компании</div>
+      <div class="card">
+        <div class="text-body-14 fw-medium">Характеристика</div>
+        <div class="text-body-14">Данные</div>
+        <hr class="solid">
+        <div class="text-body-14 fw-medium">Характеристика</div>
+        <div class="text-body-14">Данные</div>
+        <hr class="solid">
+        <div class="text-body-14 fw-medium">Характеристика</div>
+        <div class="text-body-14">Данные</div>
+        <hr class="solid">
+        <div class="text-body-14 fw-medium">Характеристика</div>
+        <div class="text-body-14">Данные</div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="cooperation">
+  <div class="container">
+    <div class="text-28 fw-bold lh-1 mb-4">
+      В сотрудничестве с российскими органами <br>
+      управления мы выполнили сложнейшие проекты 
+    </div>
+    <div class="row">
+      <div class="col-2">
+        <div class="card-number fw-bold text-center">01</div>
+      </div>
+      <div class="col">
+        <div class="header-card text-28 fw-bold d-flex align-items-center ps-4">Заказ от Министерства обороны РФ</div>
+      </div>
+    </div>
+    <div class="card card-description pe-4 mt-4">
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col-2">
+            <div class="card card-name py-2 justify-content-center text-center">Описание</div>
+          </div>
+          <div class="col my-auto">
+            <div class="text-body-14 ">Стратегический объект-база расположен на самой северной точке России,
+              на одном из островов архипелага Земли Франца Иосифа. База имеет важное расположение для защиты
+              нашей страны и обеспечения судоходства в регионе.
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-2">
+            <div class="card card-name h-100 justify-content-center text-center ">Процесс</div>
+          </div>
+          <div class="col">
+            <div class="text-body-14">АБВ Групп осуществляла производство, поставку и монтаж продукции по интерьерному
+              оформлению специализированных помещений военной базы, в том числе: <br>
+              <span>— изготовление и установка навигационных табличек из ПВХ с УФ печатью;</span><br>
+              <span>— изготовление и установка навигационных табличек из ПВХ с УФ печатью;</span><br>
+              <span>— изготовление и установка навигационных табличек из ПВХ с УФ печатью;</span>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-2">
+            <div class="card card-name py-2 justify-content-center text-center">Результат</div>
+          </div>
+          <div class="col my-auto">
+            <div class="text-body-14 ">Так мы обеспечили комфортные условия для персонала на базе и подчеркнули уникальность и красоту объекта.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-2">
+        <div class="card-number fw-bold text-center">02</div>
+      </div>
+      <div class="col">
+        <div class="header-card text-28 fw-bold lh-1 d-flex align-items-center ps-4">Заказ от Министерства Обороны РФ. <br>
+          Обустройство медицинских центров в период пандемии
+          </div>
+      </div>
+    </div>
+    <div class="card card-description pe-4 mt-4">
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col-2">
+            <div class="card card-name py-2 justify-content-center text-center">Описание</div>
+          </div>
+          <div class="col my-auto">
+            <div class="text-body-14">Мы участвовали в проектах в таких городах, как Волгоград, Воронеж, Петропавловск-Камчатский, Улан-Удэ, Хабаровск. 
+            </div>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-2">
+            <div class="card card-name h-100 justify-content-center text-center ">Процесс</div>
+          </div>
+          <div class="col">
+            <div class="text-body-14">Основная задача — оформление центров в сжатые сроки во время пандемии: <br>
+              <span>- Изготовление и установка объемных световых букв на фриз зданий;</span><br>
+              <span>- Изготовление и установка световых информационных стел;</span><br>
+              <span>- Изготовление и монтаж элементов навигации.</span>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-2">
+            <div class="card card-name py-2 justify-content-center text-center">Результат</div>
+          </div>
+          <div class="col my-auto">
+            <div class="text-body-14 ">В связи с закрытием границ, многие материалы и оборудование сложно было доставить в страну.
+               Поэтому нашей командой было принято решение по закупу необходимого материала по всей стране и доставке до места сборки и монтажа.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-2">
+        <div class="card-number fw-bold text-center">03</div>
+      </div>
+      <div class="col">
+        <div class="header-card text-28 fw-bold lh-1 d-flex align-items-center ps-4">
+          Заказ от Правительства РФ. Центры репродукции <br>
+          и сохранения редких видов ловчих птиц
+        </div>
+      </div>
+    </div>
+    <div class="card card-description pe-4 mt-4">
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col-2">
+            <div class="card card-name py-2 justify-content-center text-center">Описание</div>
+          </div>
+          <div class="col my-auto">
+            <div class="text-body-14 ">Питомник был создан в 2022 году по поручению Президента Российской Федерации,
+              нацеленный на реабилитацию, сохранение и репродукцию редких видов ловчих птиц.
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-2">
+            <div class="card card-name py-2 justify-content-center text-center">Результат</div>
+          </div>
+          <div class="col my-auto">
+            <div class="text-body-14 ">
+              Особенностью проекта стали месторасположение объекта и суровый климат. Но это не помешало выполнить
+              все работы в срок и подготовить всю продукцию, а именно световые вывески, баннерные полотна
+              с выкладкой на кровле, световые конструкции и интерьерные таблички.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section>
+  <div class="container">
+    <div class="text-41 fw-bold lh-1 mb-4">
+      Нам доверяют высшие органы <br>управления нашей страны
+  </div>
+  <div class="row">
+    <div class="col my-auto">
+      <div class="text-18 lh-1 text-primary-1">
+        Мы доказали что АБВ-ГРУПП - надежный <br>исполнитель, на которого можно положиться
+      </div>
+    </div>
+    <div class="col">
+      <button class="btn-primary text-body-14 w-100 py-2">Оставить заявку на сотруднечество</button></button>
+    </div>
+  </div>
+</div>
+</section>
+    <section class="service">
+  <div class="container">
+    <div class="text-28 fw-bold mb-3">АБВ-ГРУПП выполянет следующие услуги:</div>
+    <div class="row row-cols-lg-3 text-center">
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body text-body-14">
+            Изготовление модульных конструкций
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body text-body-14 lh-1 my-auto">
+            Сервисное и гарантийное <br>обслуживание модульных зданий
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body text-body-14">
+            Широкоформатная и интерьерная печать
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body text-body-14">
+            Наружная реклама
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body text-body-14 lh-1">
+            Обслуживание и монтаж рекламных <br>конструкций любой сложности
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3">
+          <div class="card-body text-body-14">
+            Сувенирная и полиграфическая продукция
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section>
+  <div class="container">
+    <div class="text-41 fw-bold mb-5">
+      Сертификаты компании
+    </div>
+    <div class="d-flex justify-content-between">
+      <a href="../../img/certificate.svg" target="_blank">
+        <img src="../../img/certificate.svg" alt="">
+      </a>
+      <a href="../../img/certificate.svg" target="_blank">
+        <img src="../../img/certificate.svg" alt="">
+      </a>
+      <a href="../../img/certificate.svg" target="_blank">
+        <img src="../../img/certificate.svg" alt="">
+      </a>
+      <a href="../../img/certificate.svg" target="_blank">
+        <img src="../../img/certificate.svg" alt="">
+      </a>
+    </div>
+  </div>
+</section>
+    <section class="image-container">
+  <div class="d-none d-sm-block">
+    <img class="w-100" src="../img/bg/map.svg" alt="">
+  </div>
+  <div class="container content-container">
+    <div class="row">
+      <div class="col-12 col-md-4 mt-md-2">
+        <div class="text-primary-1 text-29 text-17-m mb-md-3 fw-medium">Контакты</div>
+        <div class="text-body-14 text-13-m">zakaz@abv-group72.ru</div>
+        <div class="text-body-14 text-13-m">+7 (3452) 39-39-11</div>
+        <button class="btn-primary text-body-14 mt-3 py-2 w-100 text-13-m">Заказать звонок</button>
+      </div>
+      <div class="col-12 col-md-4 mt-2 ms-md-4">
+        <div class="text-primary-1 text-29 mb-md-3 fw-medium text-17-m">Адрес</div>
+        <div class="text-body-14 text-13-m">Пн-Пт 09:00-18:00</div>
+        <div class="text-body-14 text-13-m">г. Тюмень, ул. 50 лет Октября, 120</div>
+        <button class="btn-primary text-body-14 mt-3 py-2 w-100 text-13-m">Проложить маршрут</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- footer -->
+    <footer class="footer">
+	<div class="row justify-content-center mb-4 d-none d-sm-block">
+		<div class="col-auto">
+			<img src="../../img/logo.svg" height="40" width="315"/>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14"><a class="nav-link" href="../../index.html">Главная</a></div>
+			<div class="text-body-14"><a class="nav-link" href="../../projects.html">Проекты</a></div>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14"><a class="nav-link" href="../../about_company.html">О компании</a>
+			</div>
+			<div class="text-body-14"><a class="nav-link" href="contacts.html">Контакты</a></div>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14"><a class="nav-link" href="../../service_maintenance.html">Сервисное обслуживание</a></div>
+			<div class="text-body-14"><a class="nav-link" href="../../payment.html">Оплата, доставка и лизинг</a></div>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14">Политика <br> конфиденциальности</div>
+		</div>
+	</div>
+	<div class="mobile-footer d-sm-none">
+		<div class="col-auto my-auto">
+			<img class="me-1" src="../../img/icons/vk.svg" width="52px" height="52px" alt="">
+			<img class="me-1" src="../../img/icons/tg.svg" width="52px" height="52px"  alt="">
+			<img class="me-1" src="../../img/icons/viber.svg" width="52px" height="52px"  alt="">
+		</div>
+	</div>
+	<div class="row black-footer justify-content-between">
+		<div class="col-auto my-auto d-flex d-none d-sm-block">
+			<img class="me-1" src="../../img/icons/vk.svg" alt="">
+			<img class="me-1" src="../../img/icons/tg.svg" alt="">
+			<img class="me-1" src="../../img/icons/viber.svg" alt="">
+			<div class="text-body-14 text-white">Напишите нам</div>
+		</div>
+		<div class="col-6 col-md-auto text-white my-auto text-9-m">general marketing</div>
+		<div class="col-6 col-md-auto text-primary-1 my-auto text-9-m">©️2023 ООО «АБВ-ГРУПП»</div>
+	</div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>

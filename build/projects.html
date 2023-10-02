@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+  <div class="row align-items-center d-flex justify-content-between">
+    <div class="col-auto logo">
+      <img src="../../img/icons/logo.png" height="40" width="315" />
+    </div>
+    <div class="col search-container d-flex mx-5">
+      <input type="text" placeholder="Поиск по сайту">
+      <button class="bg-primary-1 border-0 align-items-start search-icon my-auto">
+        <img src="../../img/icons/search.svg" alt="">
+      </button>
+    </div>  
+    <div class="col-2">
+      <button class="redesigned-button transparent-buttons w-100">+7 (3452) 39-39-11</button>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-10 ">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="collapse navbar-collapse gx-5" id="navbarNav" >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../../index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../projects.html">Проекты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../service_maintenance.html">Сервисное обслуживание</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../about_company.html">О компании</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../payment.html">Оплата, доставка и лизинг</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="col-2">
+      <button class="redesigned-button btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-card">
+        Запросить расчет
+      </button>
+    </div>
+  </div>
+</header>
+<div class="modal fade" id="modal-card" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class=" text-28 fw-bold mb-2">
+          Заполните форму
+        </div>
+        <div class="text-13 mb-3">Укажите ваши контактные данные и мы свяжемся<br> с вами в ближайшее время</div>
+        <form action="">
+          <input class="w-100 mb-3 py-2 ps-3" type="text" placeholder="Имя" id=""> <br>
+          <input class="w-100 mb-3 py-2 ps-3" type="text" placeholder="Номер телефона" id=""><br>
+          <button type="button" class="btn-primary w-100 py-2" data-bs-dismiss="modal">Свяжитесь со мной</button>
+          <div class="d-flex">
+            <input class="me-1" type="checkbox">
+            <label class="text-body-14 mt-2 mb-2"> Я даю согласия не обработку <span class="text-primary-1">персональных данных</span></label>
+          </div>  
+        </form>   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- main -->
+    <section class="container tabs mt-md-5">
+  <nav>
+    <div class="row mb-md-3">
+      <div class="col-md-9 col-12">
+        <a class="flex-sm-fill nav-link active p-md-3 p-2" aria-current="page" href="#">
+          <div class="row">
+            <div class="col-auto">
+              <img src="../../img/icons/containers.svg" alt="" class="icon">
+            </div>
+            <div class="col text-28 text-13-m fw-bold lh-1 text-white my-auto">
+              Морские контейнеры
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md col-12">
+        <a class="flex-sm-fill nav-link p-md-3 p-2" aria-current="page" href="#">
+          <div class="row">
+            <div class="col-auto">
+              <img src="../../img/icons/city.svg" width="56px" height="56px" alt="" class="icon">
+            </div>
+            <div class="col text-28  text-13-m fw-bold lh-1 my-auto">
+              Городские постройки
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md col-12">
+        <a class="flex-sm-fill nav-link p-md-3 p-2" aria-current="page" href="#">
+          <div class="row">
+            <div class="col-auto">
+              <img src="../../img/icons/tourism.svg" width="56px" height="56px" alt="" class="icon">
+            </div>
+            <div class="col text-28  text-13-m fw-bold lh-1 my-auto">
+              Туристический  бизнес
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md col-12">
+        <a class="flex-sm-fill nav-link p-md-3 p-2" aria-current="page" href="#">
+          <div class="row">
+            <div class="col-auto">
+              <img src="../../img/icons/house.svg" width="56px" height="56px" alt="" class="icon">
+            </div>
+            <div class="col my-auto text-28 text-13-m fw-bold lh-1 my-auto">
+              Частные дома
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md col-12">
+        <a class="flex-sm-fill nav-link p-md-3 p-2" aria-current="page" href="#">
+          <div class="row">
+            <div class="col-auto">
+              <img src="../../img/icons/gas.svg" width="56px" height="56px" alt="" class="icon">
+            </div>
+            <div class="col my-auto text-28 text-13-m fw-bold lh-1 my-auto">
+              Нефтегаз
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+</section>
+
+    <section class="goods-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-6 mb-4 ">
+        <div class="card position-relative">
+          <img src="../../img/bg/swiper-block.png" class="card-img"/>
+          <div class="card-with-gradient d-flex flex-column justify-content-end">
+            <div class="text-white mb-md-4">
+              <h5 class="card-title text-26 text-10-m">1 500 000</h5>
+              <p class="card-text text-13 text-8-m">Производство и монтаж 60 дней Село Таковское</p>
+            </div>
+            <button class="btn-white text-8-m w-100 py-md-2">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-6 mb-4">
+        <div class="card position-relative">
+          <img src="../../img/bg/swiper-block.png" class="card-img"/>
+          <div class="card-img-overlay-white  d-flex flex-column justify-content-end">
+            <div class="text-white mb-4">
+              <h5 class="card-title text-26 text-10-m">1 500 000</h5>
+              <p class="card-text text-13 text-8-m">Производство и монтаж 60 дней<br> Село Таковское</p>
+            </div>
+            <button class="btn-white w-100 text-8-m py-md-2">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-6 mb-4">
+        <div class="card position-relative">
+          <img src="../../img/bg/swiper-block.png" class="card-img"/>
+          <div class="card-img-overlay-white  d-flex flex-column justify-content-end">
+            <div class="text-white mb-4">
+              <h5 class="card-title text-26 text-10-m">1 500 000</h5>
+              <p class="card-text text-13 text-8-m">Производство и монтаж 60 дней<br> Село Таковское</p>
+            </div>
+            <button class="btn-white w-100 text-8-m py-md-2">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-6 mb-4">
+        <div class="card position-relative">
+          <img src="../../img/bg/swiper-block.png" class="card-img"/>
+          <div class="card-img-overlay-white  d-flex flex-column justify-content-end">
+            <div class="text-white mb-4">
+              <h5 class="card-title text-26 text-10-m">1 500 000</h5>
+              <p class="card-text text-13 text-8-m">Производство и монтаж 60 дней<br> Село Таковское</p>
+            </div>
+            <button class="btn-white w-100 text-8-m py-md-2">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-6 mb-4">
+        <div class="card position-relative">
+          <img src="../../img/bg/swiper-block.png" class="card-img"/>
+          <div class="card-img-overlay-white  d-flex flex-column justify-content-end">
+            <div class="text-white mb-4">
+              <h5 class="card-title text-26 text-10-m">1 500 000</h5>
+              <p class="card-text text-13 text-8-m">Производство и монтаж 60 дней<br> Село Таковское</p>
+            </div>
+            <button class="btn-white w-100 text-8-m py-md-2">Подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-6 mb-4">
+        <button class="loading h-100 w-100 text-28 fw-bold lh-1">
+          <div class="row ms-2 text-start align-items-center h-100">
+            <div class="col-auto"><img src="../../img/icons/arrow.svg" alt=""></div>
+            <div class="col position-relative h-100">
+              <div class="text-start position-absolute" style="bottom: 16%">
+                Загрузить<br> другие проекты
+              </div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="image-container">
+  <div class="d-none d-sm-block">
+    <img class="w-100" src="../img/bg/map.svg" alt="">
+  </div>
+  <div class="container content-container">
+    <div class="row">
+      <div class="col-12 col-md-4 mt-md-2">
+        <div class="text-primary-1 text-29 text-17-m mb-md-3 fw-medium">Контакты</div>
+        <div class="text-body-14 text-13-m">zakaz@abv-group72.ru</div>
+        <div class="text-body-14 text-13-m">+7 (3452) 39-39-11</div>
+        <button class="btn-primary text-body-14 mt-3 py-2 w-100 text-13-m">Заказать звонок</button>
+      </div>
+      <div class="col-12 col-md-4 mt-2 ms-md-4">
+        <div class="text-primary-1 text-29 mb-md-3 fw-medium text-17-m">Адрес</div>
+        <div class="text-body-14 text-13-m">Пн-Пт 09:00-18:00</div>
+        <div class="text-body-14 text-13-m">г. Тюмень, ул. 50 лет Октября, 120</div>
+        <button class="btn-primary text-body-14 mt-3 py-2 w-100 text-13-m">Проложить маршрут</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- footer -->
+    <footer class="footer">
+	<div class="row justify-content-center mb-4 d-none d-sm-block">
+		<div class="col-auto">
+			<img src="../../img/logo.svg" height="40" width="315"/>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14"><a class="nav-link" href="../../index.html">Главная</a></div>
+			<div class="text-body-14"><a class="nav-link" href="../../projects.html">Проекты</a></div>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14"><a class="nav-link" href="../../about_company.html">О компании</a>
+			</div>
+			<div class="text-body-14"><a class="nav-link" href="contacts.html">Контакты</a></div>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14"><a class="nav-link" href="../../service_maintenance.html">Сервисное обслуживание</a></div>
+			<div class="text-body-14"><a class="nav-link" href="../../payment.html">Оплата, доставка и лизинг</a></div>
+		</div>
+		<div class="col-auto mx-4">
+			<div class="text-body-14">Политика <br> конфиденциальности</div>
+		</div>
+	</div>
+	<div class="mobile-footer d-sm-none">
+		<div class="col-auto my-auto">
+			<img class="me-1" src="../../img/icons/vk.svg" width="52px" height="52px" alt="">
+			<img class="me-1" src="../../img/icons/tg.svg" width="52px" height="52px"  alt="">
+			<img class="me-1" src="../../img/icons/viber.svg" width="52px" height="52px"  alt="">
+		</div>
+	</div>
+	<div class="row black-footer justify-content-between">
+		<div class="col-auto my-auto d-flex d-none d-sm-block">
+			<img class="me-1" src="../../img/icons/vk.svg" alt="">
+			<img class="me-1" src="../../img/icons/tg.svg" alt="">
+			<img class="me-1" src="../../img/icons/viber.svg" alt="">
+			<div class="text-body-14 text-white">Напишите нам</div>
+		</div>
+		<div class="col-6 col-md-auto text-white my-auto text-9-m">general marketing</div>
+		<div class="col-6 col-md-auto text-primary-1 my-auto text-9-m">©️2023 ООО «АБВ-ГРУПП»</div>
+	</div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
